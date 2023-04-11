@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../khalid/JAVASCRIPT"
+		},
+		{
+			"path": "../maquette1"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "annimation"
+	}
+}

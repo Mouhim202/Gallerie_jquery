@@ -1,0 +1,67 @@
+#container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#corps{
+    width: 50%;
+}
+#footer{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+#g_photo{
+    width: 100%;
+}
+.p_photo{
+    width: 20%;
+}
+#pg_photo{
+    width: 60%;
+    display: none;
+}
+#gris{
+    position: absolute;
+    background-color: gray;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;   
+    display: none;
+    justify-content: center;
+    align-items: center; 
+
+}
+#gris i{
+     color: white;
+     font-size: 2rem;
+     font-weight: bold;  
+     position: absolute; 
+     transform: translate(-0%,-50%) !important;
+     cursor: pointer;
+      
+    
+}
+.fa-arrow-left{
+    
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+  
+}
+.fa-arrow-right{
+    top: 50%;
+    right: 50%;
+    opacity: 0;
+ 
+}
+.fa-xmark{
+    top: 5%;
+    right:50%;
+    opacity: 0;
+   
+}
